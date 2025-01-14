@@ -1,0 +1,97 @@
+2025-01-14 07:10:35,596 - custom_logger - INFO - Custom logger module initialized.
+2025-01-14 07:10:36,922 - custom_logger - INFO - Parent folder: /home/ubuntu/pompiers/pompiers_sep24_cmlops
+2025-01-14 07:10:36,923 - custom_logger - INFO - >>>>> stage Data Ingestion stage started <<<<<
+2025-01-14 07:10:36,935 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2025-01-14 07:10:36,937 - custom_logger - INFO - yaml file: src/models_module_def/params.yaml loaded successfully
+2025-01-14 07:10:36,940 - custom_logger - INFO - yaml file: src/data_module_def/schema.yaml loaded successfully
+2025-01-14 07:10:36,941 - custom_logger - INFO - created directory at: data/raw
+2025-01-14 07:10:40,578 - custom_logger - INFO - data/raw/incident_0.csv download!
+2025-01-14 07:10:40,579 - custom_logger - INFO - data/raw/incident_0.csv : new file (no previous version): new data detected
+2025-01-14 07:10:42,709 - custom_logger - INFO - data/raw/incident_1.xlsx download!
+2025-01-14 07:10:42,709 - custom_logger - INFO - data/raw/incident_1.xlsx : new file (no previous version): new data detected
+2025-01-14 07:10:44,220 - custom_logger - INFO - data/raw/mobilisation_0.xlsx download!
+2025-01-14 07:10:44,221 - custom_logger - INFO - data/raw/mobilisation_0.xlsx : new file (no previous version): new data detected
+2025-01-14 07:10:45,660 - custom_logger - INFO - data/raw/mobilisation_1.xlsx download!
+2025-01-14 07:10:45,661 - custom_logger - INFO - data/raw/mobilisation_1.xlsx : new file (no previous version): new data detected
+2025-01-14 07:10:46,996 - custom_logger - INFO - data/raw/mobilisation_2.xlsx download!
+2025-01-14 07:10:46,996 - custom_logger - INFO - data/raw/mobilisation_2.xlsx : new file (no previous version): new data detected
+2025-01-14 07:10:46,996 - custom_logger - INFO - new_data: True
+2025-01-14 07:10:46,996 - custom_logger - INFO - >> Process Raw file data/raw/incident_0.csv
+2025-01-14 07:10:55,694 - custom_logger - INFO - {2016, 2017, 2009, 2010, 2011, 2012, 2013, 2014, 2015}
+2025-01-14 07:10:55,694 - custom_logger - INFO - data/raw/annuels/incident/incident_2016.csv
+2025-01-14 07:10:57,871 - custom_logger - INFO - >> Annual file data/raw/annuels/incident/incident_2016.csv created
+2025-01-14 07:10:57,872 - custom_logger - INFO - data/raw/annuels/incident/incident_2017.csv
+2025-01-14 07:11:00,030 - custom_logger - INFO - >> Annual file data/raw/annuels/incident/incident_2017.csv created
+2025-01-14 07:11:00,030 - custom_logger - INFO - data/raw/annuels/incident/incident_2009.csv
+2025-01-14 07:11:03,188 - custom_logger - INFO - >> Annual file data/raw/annuels/incident/incident_2009.csv created
+2025-01-14 07:11:03,188 - custom_logger - INFO - data/raw/annuels/incident/incident_2010.csv
+2025-01-14 07:11:05,921 - custom_logger - INFO - >> Annual file data/raw/annuels/incident/incident_2010.csv created
+2025-01-14 07:11:05,921 - custom_logger - INFO - data/raw/annuels/incident/incident_2011.csv
+2025-01-14 07:11:08,493 - custom_logger - INFO - >> Annual file data/raw/annuels/incident/incident_2011.csv created
+2025-01-14 07:11:08,493 - custom_logger - INFO - data/raw/annuels/incident/incident_2012.csv
+2025-01-14 07:11:10,979 - custom_logger - INFO - >> Annual file data/raw/annuels/incident/incident_2012.csv created
+2025-01-14 07:11:10,979 - custom_logger - INFO - data/raw/annuels/incident/incident_2013.csv
+2025-01-14 07:11:13,220 - custom_logger - INFO - >> Annual file data/raw/annuels/incident/incident_2013.csv created
+2025-01-14 07:11:13,220 - custom_logger - INFO - data/raw/annuels/incident/incident_2014.csv
+2025-01-14 07:11:15,298 - custom_logger - INFO - >> Annual file data/raw/annuels/incident/incident_2014.csv created
+2025-01-14 07:11:15,299 - custom_logger - INFO - data/raw/annuels/incident/incident_2015.csv
+2025-01-14 07:11:17,287 - custom_logger - INFO - >> Annual file data/raw/annuels/incident/incident_2015.csv created
+2025-01-14 07:11:17,287 - custom_logger - INFO - >> Process Raw file data/raw/incident_1.xlsx
+2025-01-14 07:21:02,587 - custom_logger - INFO - {2018, 2019, 2020, 2021, 2022, 2023, 2024}
+2025-01-14 07:21:02,588 - custom_logger - INFO - data/raw/annuels/incident/incident_2018.csv
+2025-01-14 07:21:05,008 - custom_logger - INFO - >> Annual file data/raw/annuels/incident/incident_2018.csv created
+2025-01-14 07:21:05,008 - custom_logger - INFO - data/raw/annuels/incident/incident_2019.csv
+2025-01-14 07:21:07,358 - custom_logger - INFO - >> Annual file data/raw/annuels/incident/incident_2019.csv created
+2025-01-14 07:21:07,359 - custom_logger - INFO - data/raw/annuels/incident/incident_2020.csv
+2025-01-14 07:21:10,220 - custom_logger - INFO - >> Annual file data/raw/annuels/incident/incident_2020.csv created
+2025-01-14 07:21:10,221 - custom_logger - INFO - data/raw/annuels/incident/incident_2021.csv
+2025-01-14 07:21:12,773 - custom_logger - INFO - >> Annual file data/raw/annuels/incident/incident_2021.csv created
+2025-01-14 07:21:12,774 - custom_logger - INFO - data/raw/annuels/incident/incident_2022.csv
+2025-01-14 07:21:15,609 - custom_logger - INFO - >> Annual file data/raw/annuels/incident/incident_2022.csv created
+2025-01-14 07:21:15,609 - custom_logger - INFO - data/raw/annuels/incident/incident_2023.csv
+2025-01-14 07:21:18,524 - custom_logger - INFO - >> Annual file data/raw/annuels/incident/incident_2023.csv created
+2025-01-14 07:21:18,524 - custom_logger - INFO - data/raw/annuels/incident/incident_2024.csv
+2025-01-14 07:21:21,370 - custom_logger - INFO - >> Annual file data/raw/annuels/incident/incident_2024.csv created
+2025-01-14 07:21:21,371 - custom_logger - INFO - >> Process Raw file data/raw/mobilisation_2.xlsx
+2025-01-14 07:27:13,303 - custom_logger - INFO - {2024, 2021, 2022, 2023}
+2025-01-14 07:27:13,304 - custom_logger - INFO - data/raw/annuels/mobilisation/mobilisation_2024.csv
+2025-01-14 07:27:17,462 - custom_logger - INFO - >> Annual file data/raw/annuels/mobilisation/mobilisation_2024.csv created
+2025-01-14 07:27:17,462 - custom_logger - INFO - data/raw/annuels/mobilisation/mobilisation_2021.csv
+2025-01-14 07:27:20,873 - custom_logger - INFO - >> Annual file data/raw/annuels/mobilisation/mobilisation_2021.csv created
+2025-01-14 07:27:20,873 - custom_logger - INFO - data/raw/annuels/mobilisation/mobilisation_2022.csv
+2025-01-14 07:27:24,843 - custom_logger - INFO - >> Annual file data/raw/annuels/mobilisation/mobilisation_2022.csv created
+2025-01-14 07:27:24,843 - custom_logger - INFO - data/raw/annuels/mobilisation/mobilisation_2023.csv
+2025-01-14 07:27:29,316 - custom_logger - INFO - >> Annual file data/raw/annuels/mobilisation/mobilisation_2023.csv created
+2025-01-14 07:27:29,317 - custom_logger - INFO - >> Process Raw file data/raw/mobilisation_0.xlsx
+2025-01-14 07:34:38,307 - custom_logger - INFO - {2009, 2010, 2011, 2012, 2013, 2014}
+2025-01-14 07:34:38,307 - custom_logger - INFO - data/raw/annuels/mobilisation/mobilisation_2009.csv
+2025-01-14 07:34:42,192 - custom_logger - INFO - >> Annual file data/raw/annuels/mobilisation/mobilisation_2009.csv created
+2025-01-14 07:34:42,192 - custom_logger - INFO - data/raw/annuels/mobilisation/mobilisation_2010.csv
+2025-01-14 07:34:46,037 - custom_logger - INFO - >> Annual file data/raw/annuels/mobilisation/mobilisation_2010.csv created
+2025-01-14 07:34:46,037 - custom_logger - INFO - data/raw/annuels/mobilisation/mobilisation_2011.csv
+2025-01-14 07:34:49,685 - custom_logger - INFO - >> Annual file data/raw/annuels/mobilisation/mobilisation_2011.csv created
+2025-01-14 07:34:49,685 - custom_logger - INFO - data/raw/annuels/mobilisation/mobilisation_2012.csv
+2025-01-14 07:34:52,896 - custom_logger - INFO - >> Annual file data/raw/annuels/mobilisation/mobilisation_2012.csv created
+2025-01-14 07:34:52,896 - custom_logger - INFO - data/raw/annuels/mobilisation/mobilisation_2013.csv
+2025-01-14 07:34:55,855 - custom_logger - INFO - >> Annual file data/raw/annuels/mobilisation/mobilisation_2013.csv created
+2025-01-14 07:34:55,855 - custom_logger - INFO - data/raw/annuels/mobilisation/mobilisation_2014.csv
+2025-01-14 07:34:58,561 - custom_logger - INFO - >> Annual file data/raw/annuels/mobilisation/mobilisation_2014.csv created
+2025-01-14 07:34:58,562 - custom_logger - INFO - >> Process Raw file data/raw/mobilisation_1.xlsx
+2025-01-14 07:41:40,031 - custom_logger - INFO - {2016, 2017, 2018, 2019, 2020, 2015}
+2025-01-14 07:41:40,032 - custom_logger - INFO - data/raw/annuels/mobilisation/mobilisation_2016.csv
+2025-01-14 07:41:42,709 - custom_logger - INFO - >> Annual file data/raw/annuels/mobilisation/mobilisation_2016.csv created
+2025-01-14 07:41:42,710 - custom_logger - INFO - data/raw/annuels/mobilisation/mobilisation_2017.csv
+2025-01-14 07:41:45,459 - custom_logger - INFO - >> Annual file data/raw/annuels/mobilisation/mobilisation_2017.csv created
+2025-01-14 07:41:45,459 - custom_logger - INFO - data/raw/annuels/mobilisation/mobilisation_2018.csv
+2025-01-14 07:41:48,411 - custom_logger - INFO - >> Annual file data/raw/annuels/mobilisation/mobilisation_2018.csv created
+2025-01-14 07:41:48,412 - custom_logger - INFO - data/raw/annuels/mobilisation/mobilisation_2019.csv
+2025-01-14 07:41:51,288 - custom_logger - INFO - >> Annual file data/raw/annuels/mobilisation/mobilisation_2019.csv created
+2025-01-14 07:41:51,288 - custom_logger - INFO - data/raw/annuels/mobilisation/mobilisation_2020.csv
+2025-01-14 07:41:54,112 - custom_logger - INFO - >> Annual file data/raw/annuels/mobilisation/mobilisation_2020.csv created
+2025-01-14 07:41:54,112 - custom_logger - INFO - data/raw/annuels/mobilisation/mobilisation_2015.csv
+2025-01-14 07:41:56,719 - custom_logger - INFO - >> Annual file data/raw/annuels/mobilisation/mobilisation_2015.csv created
+2025-01-14 07:41:57,570 - custom_logger - INFO - >> Copy test file in tests/data/raw/annuels/incident/incident_2009.csv
+2025-01-14 07:41:58,322 - custom_logger - INFO - >> Copy test file in tests/data/raw/annuels/incident/incident_2010.csv
+2025-01-14 07:41:58,342 - custom_logger - INFO - >>>>> stage Data Ingestion stage completed <<<<<
+
+x=======x

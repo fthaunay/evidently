@@ -24,6 +24,48 @@ def setup_logger() -> None:
     )
 
 
+
+def get_data_pompiers(use_model: bool=False) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    """
+    
+    """
+
+    logging.info('Loading datasets...')
+    reference = pd.read_csv("/home/ubuntu/pompiers/pompiers_sep24_cmlops/data/raw/annuels/incident/incident_2020.csv").head(100)
+    
+    current = pd.read_csv("/home/ubuntu/pompiers/pompiers_sep24_cmlops/data/raw/annuels/incident/incident_2024.csv").head(100)
+
+    # target = 
+    numerical_features = ["HourOfCall", "SpecialServiceType", "PropertyType", "AddressQualifier",
+                          "Postcode_district", "IncGeo_BoroughCode", "ProperCase", "IncGeo_WardCode",
+                          "IncGeo_WardName", "Easting_rounded", "Northing_rounded", "IncidentStationGround",
+                          "NumPumpsAttending", "NumCalls",  "IncidentGroup", "PumpCount"
+                          ]
+    categorical_features = ["StopCodeDescription", "PropertyCategory"]
+
+    features = numerical_features + categorical_features
+
+    if use_model:
+        from sklearn.ensemble import RandomForestRegressor
+
+        # get predictions with random forest
+        model = RandomForestRegressor(random_state=0)
+
+    else:
+        from sklearn.ensemble import GradientBoostingRegressor
+
+        model = GradientBoostingRegressor(random_state=0)
+
+    # model.fit(reference[features], reference[target])
+    reference["prediction"] = 0
+    current["prediction"] = 0
+
+    columns_to_keep = ['HourOfCall', 'PropertyType', 'ProperCase', 'NumCalls', 'IncidentGroup', 'prediction']
+
+    return reference[columns_to_keep], current[columns_to_keep]
+
+
+
 def get_data_bike_random_forest() -> Tuple[pd.DataFrame, pd.DataFrame]:
     """Get bike dataset with random forest model prediction"""
     return get_data_bike(True)
@@ -106,6 +148,7 @@ def main(dataset_name: str, dataset_path: str) -> None:
     os.makedirs(dataset_path)
 
     reference_data, production_data = DATA_SOURCES[dataset_name]()
+    print(dataset_name, DATA_SOURCES, DATA_SOURCES[dataset_name](), dataset_path)
     logging.info("Save datasets to %s", dataset_path)
     reference_data.to_csv(os.path.join(dataset_path, "reference.csv"), index=False)
     production_data.to_csv(os.path.join(dataset_path, "production.csv"), index=False)
@@ -115,9 +158,10 @@ def main(dataset_name: str, dataset_path: str) -> None:
 
 
 DATA_SOURCES = {
-    "bike_random_forest": get_data_bike_random_forest,
-    "bike_gradient_boosting": get_data_bike_gradient_boosting,
-    "kdd_k_neighbors_classifier": get_data_kdd_classification,
+    #"bike_random_forest": get_data_bike_random_forest,
+    #"bike_gradient_boosting": get_data_bike_gradient_boosting,
+    #"kdd_k_neighbors_classifier": get_data_kdd_classification,
+    "pompiers": get_data_pompiers,
 }
 
 
@@ -128,10 +172,12 @@ if __name__ == "__main__":
     parser.add_argument(
         "-d",
         "--dataset",
-        choices=DATA_SOURCES.keys(),
         type=str,
         help="Dataset name for reference.csv= and production.csv files generation.",
     )
+
+    parser.set_defaults(dataset='pompiers')
+
     parser.add_argument(
         "-p",
         "--path",
@@ -141,6 +187,9 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     setup_logger()
+    print(args.dataset)
+    print(args.path)
     if args.dataset not in DATA_SOURCES:
         exit(f"Incorrect dataset name {args.dataset}, try to see correct names with --help")
     main(args.dataset, args.path)
+

@@ -31,7 +31,7 @@ def check_dataset(
     datasets_path: str,
     dataset_name: str
 ) -> None:
-    logging.info("Check dataset %s", dataset_name)
+    logging.info("[eun_example] Check dataset %s", dataset_name)
     dataset_path = os.path.join(datasets_path, dataset_name)
 
     if os.path.exists(dataset_path):
@@ -59,13 +59,14 @@ def download_test_datasets(force: bool):
     else:
         logging.info("Datasets directory already exists")
 
-    for dataset_name in ("bike_random_forest", "bike_gradient_boosting", "kdd_k_neighbors_classifier"):
+    # TODO 
+    for dataset_name in ['pompiers']:
         check_dataset(force, datasets_path, dataset_name)
 
 
 def run_docker_compose():
     logging.info("Run docker compose")
-    run_script(cmd=["docker", "compose", "up", "-d"], wait=True)
+    run_script(cmd=["docker-compose", "up", "-d"], wait=True)
 
 
 def run_script(cmd: list, wait: bool) -> None:

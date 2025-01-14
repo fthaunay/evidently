@@ -1,0 +1,101 @@
+HourOfCall,PropertyType,ProperCase,NumCalls,IncidentGroup,prediction
+0,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Lambeth,3.0,Special Service,0
+0,Private Garden Shed ,Hillingdon,3.0,Fire,0
+0,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Haringey,1.0,Special Service,0
+0,Telephone exchange,Richmond Upon thames,1.0,False Alarm,0
+0,Small refuse/rubbish container,Enfield,1.0,Fire,0
+0,Retirement/Old Persons Home,Wandsworth,2.0,False Alarm,0
+0,Road surface/pavement ,Sutton,1.0,False Alarm,0
+0,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Southwark,1.0,Special Service,0
+0,Outdoor storage ,Waltham Forest,2.0,Fire,0
+0,House - single occupancy ,Hounslow,1.0,False Alarm,0
+0,Converted Flat/Maisonette - Up to 2 storeys ,Westminster,1.0,Fire,0
+0,Purpose built office ,Westminster,2.0,False Alarm,0
+0,Other retail  ,Westminster,1.0,False Alarm,0
+0,Car ,Hackney,1.0,Special Service,0
+0,Telephone exchange,Westminster,1.0,False Alarm,0
+0,Self contained Sheltered Housing ,Haringey,1.0,False Alarm,0
+0,Purpose Built Flats/Maisonettes - 10 or more storeys ,Hammersmith And fulham,1.0,False Alarm,0
+0,Domestic garden (vegetation not equipment) ,Waltham Forest,1.0,Fire,0
+0,Road surface/pavement ,Barnet,1.0,Special Service,0
+0,Sports/Social club ,Westminster,2.0,False Alarm,0
+0,Motorcycle ,Croydon,1.0,Special Service,0
+0,Single shop ,Westminster,2.0,False Alarm,0
+0,Purpose built office ,Westminster,1.0,False Alarm,0
+0,Road surface/pavement ,Hillingdon,1.0,Fire,0
+0,House - single occupancy ,Haringey,1.0,False Alarm,0
+0,House - single occupancy ,Bromley,1.0,Fire,0
+0,Licensed House in Multiple Occupation - Up to 2 storeys ,Ealing,3.0,Fire,0
+0,Club/night club ,Southwark,1.0,False Alarm,0
+0,Grassland/ pasture/ grazing etc ,Brent,2.0,Fire,0
+0,Other outdoor structures ,Newham,1.0,Fire,0
+0,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Lambeth,1.0,Special Service,0
+0,Wheelie bin (domestic size),Greenwich,4.0,Fire,0
+0,Wheelie bin (domestic size),Enfield,1.0,Fire,0
+0,Small refuse/rubbish container,Islington,1.0,Fire,0
+0,Loose refuse ,Waltham Forest,1.0,Fire,0
+0,Road surface/pavement ,Haringey,1.0,Special Service,0
+0,Large refuse/rubbish container (eg skip/ paladin),Lambeth,1.0,Fire,0
+0,Road surface/pavement ,Havering,1.0,Fire,0
+0,Loose refuse ,Ealing,1.0,Fire,0
+0,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Southwark,1.0,False Alarm,0
+0,Single shop ,Westminster,1.0,False Alarm,0
+0,Loose refuse ,Newham,1.0,Fire,0
+1,Road surface/pavement ,Havering,1.0,Fire,0
+1,Cycle path/public footpath/bridleway ,Hackney,1.0,Fire,0
+1,Purpose Built Flats/Maisonettes - 10 or more storeys ,Barking And dagenham,1.0,Special Service,0
+1,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Southwark,1.0,Special Service,0
+1,Pipe or drain ,Redbridge,1.0,Fire,0
+1,Purpose Built Flats/Maisonettes - 10 or more storeys ,Tower Hamlets,2.0,False Alarm,0
+1,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Hackney,1.0,False Alarm,0
+1,Private Garden Shed ,Barnet,9.0,Fire,0
+1,Restaurant/cafe,Brent,1.0,False Alarm,0
+1,Purpose Built Flats/Maisonettes - 10 or more storeys ,Barking And dagenham,1.0,False Alarm,0
+1,Small refuse/rubbish container,Bexley,1.0,Fire,0
+1,Loose refuse ,Tower Hamlets,1.0,Fire,0
+1,Road surface/pavement ,Harrow,1.0,Fire,0
+1,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Hackney,2.0,False Alarm,0
+1,Road surface/pavement ,Southwark,1.0,Special Service,0
+1,House - single occupancy ,Lewisham,1.0,False Alarm,0
+1,Hotel/motel ,Greenwich,1.0,Special Service,0
+1,Licensed House in Multiple Occupation - 3 or more storeys ,Kensington And chelsea,1.0,False Alarm,0
+1,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Lambeth,1.0,False Alarm,0
+1,Loose refuse ,Redbridge,1.0,Fire,0
+1,Converted Flat/Maisonettes - 3 or more storeys,Kensington And chelsea,2.0,Fire,0
+1,Small refuse/rubbish container,Lambeth,1.0,Fire,0
+1,House - single occupancy ,Barking And dagenham,1.0,Fire,0
+1,Fence,Enfield,1.0,Fire,0
+1,Road surface/pavement ,Tower Hamlets,1.0,Special Service,0
+1,Barbecue,Ealing,1.0,Fire,0
+1,Car ,Lewisham,1.0,Special Service,0
+1,Purpose Built Flats/Maisonettes - Up to 3 storeys ,Barking And dagenham,2.0,Fire,0
+1,House - single occupancy ,Lambeth,1.0,False Alarm,0
+1,Purpose Built Flats/Maisonettes - 10 or more storeys ,Bexley,1.0,Fire,0
+1,Refuse/rubbish tip ,Newham,1.0,Fire,0
+1,Purpose Built Flats/Maisonettes - Up to 3 storeys ,Croydon,1.0,Fire,0
+1,Licensed House in Multiple Occupation - 3 or more storeys ,Kensington And chelsea,1.0,False Alarm,0
+1,Converted Flat/Maisonette - Up to 2 storeys ,Lambeth,1.0,False Alarm,0
+1,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Southwark,1.0,Special Service,0
+1,Car ,Southwark,1.0,Special Service,0
+2,Car ,Greenwich,1.0,Special Service,0
+2,Railway ,Lewisham,1.0,Special Service,0
+2,Road surface/pavement ,Sutton,1.0,Special Service,0
+2,Purpose built office ,City Of london,1.0,False Alarm,0
+2,Purpose Built Flats/Maisonettes - Up to 3 storeys ,Southwark,1.0,Special Service,0
+2,Purpose Built Flats/Maisonettes - Up to 3 storeys ,Hounslow,1.0,False Alarm,0
+2,Loose refuse ,Havering,1.0,Fire,0
+2,Other outdoor location ,Westminster,1.0,Special Service,0
+2,House - single occupancy ,Enfield,1.0,False Alarm,0
+2,House - single occupancy ,Kingston Upon thames,1.0,False Alarm,0
+2,Club/night club ,Camden,1.0,False Alarm,0
+2,House - single occupancy ,Lewisham,2.0,Special Service,0
+2,Converted Flat/Maisonette - Up to 2 storeys ,Camden,1.0,False Alarm,0
+2,House - single occupancy ,Bexley,1.0,Special Service,0
+2,House - single occupancy ,Newham,1.0,Fire,0
+3,Vehicle Repair Workshop,Islington,2.0,False Alarm,0
+3,Purpose Built Flats/Maisonettes - 10 or more storeys ,Islington,1.0,Special Service,0
+3,Multi-Storey car park,Greenwich,1.0,False Alarm,0
+3,Purpose Built Flats/Maisonettes - 10 or more storeys ,Greenwich,1.0,Special Service,0
+3,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Croydon,1.0,Special Service,0
+3,Hotel/motel ,Camden,1.0,False Alarm,0
+3,House - single occupancy ,Hounslow,2.0,Special Service,0

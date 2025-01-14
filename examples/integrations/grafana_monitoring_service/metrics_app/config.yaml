@@ -1,4 +1,34 @@
 datasets:
+  pompiers:
+    column_mapping:
+      numerical_features:
+      - HourOfCall
+      #- SpecialServiceType
+      - PropertyType
+      #- AddressQualifier
+      #- Postcode_district
+      #- IncGeo_BoroughCode
+      - ProperCase
+      #- IncGeo_WardCode
+      #- IncGeo_WardName
+      #- Easting_rounded
+      #- Northing_rounded
+      #- IncidentStationGround
+      #- NumPumpsAttending
+      #- PumpCount
+      - NumCalls
+      #- DeployedFromStation_Code
+      - IncidentGroup
+    #categorical_features:
+    #- StopCodeDescription
+    #- PropertyCategory
+    data_format:
+      header: true
+      separator: ','
+    monitors:
+      - data_drift
+
+
   bike_random_forest:
     column_mapping:
       categorical_features:

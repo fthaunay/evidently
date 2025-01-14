@@ -29,6 +29,8 @@ class NumpyEncoder(json.JSONEncoder):
 def send_data_row(dataset_name: str, data: Dict) -> None:
     print(f"Send a data item for {dataset_name}")
 
+    print(dataset_name)
+    print(data)
     try:
         response = requests.post(
             f"http://localhost:8085/iterate/{dataset_name}",
@@ -61,15 +63,24 @@ def main(sleep_timeout: int) -> None:
     max_index = 0
 
     for dataset_name in os.listdir(datasets_path):
+        print(f"dataset_name: {dataset_name}")
         production_data_path = os.path.join(datasets_path, dataset_name, "production.csv")
+        print(f"production_data_path: {production_data_path}")
         new_data = pd.read_csv(production_data_path)
+        print(len(new_data))
         datasets[dataset_name] = new_data
         max_index = max(max_index, new_data.shape[0])
+        print(f"max_index: {max_index} ({new_data.shape[0]})")
 
     for idx in range(0, max_index):
+        print(f"idx : {idx}" )
         for dataset_name, dataset in datasets.items():
             dataset_size = dataset.shape[0]
+            print(f"dataset_size : {dataset_size}" )
+            print(f"idx % dataset_size : {idx % dataset_size}" )
             data = dataset.iloc[idx % dataset_size].to_dict()
+            print("Raw a envoyer à Prometheus")
+            print(data)
             send_data_row(dataset_name, data)
 
         print(f"Wait {sleep_timeout} seconds till the next try.")
@@ -84,7 +95,7 @@ if __name__ == "__main__":
         "-t",
         "--timeout",
         type=float,
-        default=2,
+        default=20,
         help="Sleep timeout between data send tries in seconds.",
     )
     args = parser.parse_args()

@@ -1,0 +1,101 @@
+HourOfCall,PropertyType,ProperCase,NumCalls,IncidentGroup,prediction
+0,Unlicensed House in Multiple Occupation - Up to 2 storeys ,Waltham Forest,1.0,Special Service,0
+0,Purpose Built Flats/Maisonettes - 10 or more storeys ,Hackney,1.0,Special Service,0
+0,Loose refuse ,Southwark,1.0,False Alarm,0
+0,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Ealing,1.0,Special Service,0
+0,Purpose Built Flats/Maisonettes - 10 or more storeys ,Greenwich,2.0,Special Service,0
+0,Road surface/pavement ,Islington,1.0,Fire,0
+0,Private Garden Shed ,Haringey,14.0,Fire,0
+0,Domestic garden (vegetation not equipment) ,Hounslow,2.0,Fire,0
+0,Secondary school,Tower Hamlets,1.0,False Alarm,0
+0,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Haringey,1.0,False Alarm,0
+0,Purpose Built Flats/Maisonettes - Up to 3 storeys ,Camden,2.0,False Alarm,0
+0,Private Garden Shed ,Wandsworth,5.0,Fire,0
+0,Loose refuse ,Hounslow,1.0,False Alarm,0
+0,Small refuse/rubbish container,Kingston Upon thames,1.0,Fire,0
+0,Outdoor storage ,Hillingdon,2.0,Fire,0
+0,Domestic garden (vegetation not equipment) ,Hillingdon,3.0,Fire,0
+0,House - single occupancy ,Ealing,1.0,False Alarm,0
+0,Car ,Barnet,1.0,Special Service,0
+0,Road surface/pavement ,Havering,1.0,Fire,0
+0,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Lewisham,2.0,Special Service,0
+0,College/University ,Lambeth,1.0,False Alarm,0
+0,Road surface/pavement ,Brent,1.0,Fire,0
+0,Grassland/ pasture/ grazing etc ,Redbridge,1.0,Fire,0
+0,Loose refuse ,Waltham Forest,2.0,Fire,0
+0,Small refuse/rubbish container,Waltham Forest,2.0,Fire,0
+0,Hedge,Havering,1.0,False Alarm,0
+0,Heathland ,Newham,1.0,False Alarm,0
+0,House - single occupancy ,Lambeth,1.0,False Alarm,0
+0,Small refuse/rubbish container,Barking And dagenham,1.0,Fire,0
+0,Small refuse/rubbish container,Haringey,1.0,Fire,0
+0,Purpose built office ,Southwark,1.0,False Alarm,0
+0,Playground/Recreation area (not equipment),Tower Hamlets,1.0,Fire,0
+0,Park ,Lewisham,2.0,Fire,0
+0,Cycle path/public footpath/bridleway ,Ealing,1.0,Fire,0
+0,Road surface/pavement ,Enfield,1.0,Fire,0
+0,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Newham,1.0,False Alarm,0
+0,Road surface/pavement ,Bexley,1.0,Fire,0
+0,Purpose Built Flats/Maisonettes - 10 or more storeys ,Tower Hamlets,1.0,False Alarm,0
+0,Loose refuse ,Hounslow,1.0,False Alarm,0
+0,Loose refuse ,Barnet,1.0,Fire,0
+0,Secondary school,Tower Hamlets,2.0,False Alarm,0
+0,Common external bin storage area,Hounslow,2.0,Fire,0
+0,Grassland/ pasture/ grazing etc ,Lambeth,1.0,False Alarm,0
+0,Roadside vegetation ,Bromley,1.0,False Alarm,0
+0,Other outdoor structures ,Lambeth,2.0,Special Service,0
+0,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Lewisham,1.0,False Alarm,0
+0,Road surface/pavement ,Haringey,1.0,False Alarm,0
+0,Domestic garden (vegetation not equipment) ,Redbridge,1.0,Fire,0
+0,House - single occupancy ,Merton,2.0,Special Service,0
+0,Road surface/pavement ,Greenwich,2.0,Fire,0
+0,Road surface/pavement ,Havering,1.0,Fire,0
+0,False Alarm - Property not found,Westminster,1.0,False Alarm,0
+0,Domestic garden (vegetation not equipment) ,Haringey,1.0,Fire,0
+0,Purpose Built Flats/Maisonettes - Up to 3 storeys ,Southwark,1.0,False Alarm,0
+0,Small refuse/rubbish container,Wandsworth,1.0,Fire,0
+0,Park ,Wandsworth,1.0,Fire,0
+0,Car ,Hounslow,4.0,Fire,0
+0,Common external bin storage area,Merton,2.0,Fire,0
+0,Road surface/pavement ,Redbridge,1.0,Fire,0
+0,Small refuse/rubbish container,Hillingdon,2.0,Fire,0
+0,Common external bin storage area,City Of london,1.0,False Alarm,0
+0,Small refuse/rubbish container,Waltham Forest,1.0,Fire,0
+0,Loose refuse ,Hounslow,1.0,False Alarm,0
+0,Infant/Primary school,Merton,1.0,False Alarm,0
+0,Small refuse/rubbish container,Tower Hamlets,1.0,Fire,0
+0,Loose refuse ,Bromley,1.0,Fire,0
+0,Road surface/pavement ,Hounslow,1.0,Fire,0
+0,Small refuse/rubbish container,Waltham Forest,2.0,Fire,0
+0,Loose refuse ,Hillingdon,1.0,Fire,0
+0,Domestic garden (vegetation not equipment) ,Brent,1.0,False Alarm,0
+0,Park ,Haringey,1.0,Fire,0
+0,Large refuse/rubbish container (eg skip/ paladin),Enfield,1.0,Fire,0
+0,Road surface/pavement ,Brent,1.0,Fire,0
+0,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Islington,1.0,False Alarm,0
+0,Road surface/pavement ,Enfield,1.0,Fire,0
+0,House - single occupancy ,Newham,1.0,False Alarm,0
+0,Large refuse/rubbish container (eg skip/ paladin),Havering,1.0,Fire,0
+0,Loose refuse ,Brent,7.0,Fire,0
+0,Small refuse/rubbish container,Enfield,1.0,False Alarm,0
+0,Park ,Waltham Forest,1.0,Fire,0
+0,Road surface/pavement ,Newham,1.0,Fire,0
+0,Purpose Built Flats/Maisonettes - Up to 3 storeys ,Lewisham,1.0,Special Service,0
+0,Loose refuse ,Tower Hamlets,1.0,Fire,0
+0,Road surface/pavement ,Hounslow,1.0,Fire,0
+0,Small refuse/rubbish container,Waltham Forest,1.0,Fire,0
+0,Playground/Recreation area (not equipment),Enfield,1.0,False Alarm,0
+0,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Lewisham,1.0,Special Service,0
+0,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Tower Hamlets,1.0,Special Service,0
+0,Loose refuse ,Hillingdon,1.0,Fire,0
+0,Loose refuse ,Harrow,1.0,Fire,0
+0,Small refuse/rubbish container,Havering,4.0,False Alarm,0
+0,Road surface/pavement ,Westminster,4.0,Fire,0
+1,Small refuse/rubbish container,Lambeth,2.0,Fire,0
+1,Purpose Built Flats/Maisonettes - 4 to 9 storeys ,Hackney,1.0,False Alarm,0
+1,Road surface/pavement ,Barking And dagenham,1.0,Fire,0
+1,Large supermarket ,Hounslow,2.0,False Alarm,0
+1,Park ,Newham,1.0,Fire,0
+1,Refuse/rubbish tip ,Southwark,1.0,Fire,0
+1,Tree scrub ,Redbridge,1.0,False Alarm,0
+1,Roadside vegetation ,Newham,1.0,Fire,0
